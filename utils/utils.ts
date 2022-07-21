@@ -1,5 +1,4 @@
 import { AxiosError } from 'axios';
-import { AppActions } from 'store/types';
 import { put } from 'redux-saga/effects';
 
 // for reducers
