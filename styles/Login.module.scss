@@ -1,0 +1,28 @@
+.login {
+  &__div {
+    border: 2px solid rgba(0, 0, 0, 0.436);
+    border-radius: 5px;
+    padding: 10px 20px 20px 20px;
+    box-shadow: 1px 1px 5px 0.5px rgba(0, 0, 0, 0.412);
+
+    &-input {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 15px;
+  }
+  &__label {
+    width: 80px;
+  }
+
+  &__button {
+    margin-top: 10px;
+    padding: 2px 0 !important;
+    width: 100%;
+  }
+}
