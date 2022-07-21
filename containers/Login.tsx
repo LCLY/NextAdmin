@@ -32,7 +32,7 @@ const Login: React.FC<Props> = ({ onSignIn, authenticated, loading }) => {
   return (
     <>
       <div className={styles['login__div']}>
-        <div className={styles['login__title']}>DEMO</div>
+        <div className={styles['login__title']}>2EZAsia DEMO</div>
         <form onSubmit={handleSubmit}>
           <div className={`flex-align-center ${styles['login__div-input']}`}>
             <div className={styles['login__label']}>

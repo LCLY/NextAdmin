@@ -45,9 +45,11 @@ const SpecificProject: React.FC<Props> = ({
   /*  method */
   /* ================================================== */
   const handleClose = () => {
+    // hide omdal
     setShow(false);
   };
   const handleSubmit = () => {
+    // send payload to put rest api
     onUpdateProject(data);
   };
   /* ================================================== */
@@ -56,6 +58,9 @@ const SpecificProject: React.FC<Props> = ({
 
   useEffect(() => {
     if (specificProject && typeof specificProject !== 'string') {
+      // updating data when specificProject returns something from api
+      // data is for modal
+      // currentDetail for display
       setData(specificProject);
       setCurrentDetail(specificProject);
     }
@@ -74,6 +79,7 @@ const SpecificProject: React.FC<Props> = ({
 
   useEffect(() => {
     if (project_id !== undefined && typeof project_id === 'string') {
+      // retrieve project id from router
       onGetSpecificProject(parseInt(project_id));
     }
   }, [project_id]);
