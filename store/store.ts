@@ -1,6 +1,6 @@
 // redux
 import { createWrapper, Context } from 'next-redux-wrapper';
-import { createStore, applyMiddleware, Store, compose, combineReducers, AnyAction } from 'redux';
+import { createStore, applyMiddleware, Store, compose, combineReducers } from 'redux';
 import createSagaMiddleware, { Task } from 'redux-saga';
 import { watchAuth, watchDashboard } from './sagas/index';
 import { composeWithDevTools } from 'redux-devtools-extension';
