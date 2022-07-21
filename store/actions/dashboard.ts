@@ -1,5 +1,4 @@
 import * as actionTypes from './actionTypes';
-import { ITokens } from '../types/auth';
 import { IProject } from 'store/types/dashboard';
 
 /* ================================================== */
