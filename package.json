@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev -p 8080",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "next start",
     "format": "prettier --check --ignore-path .gitignore .",
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
@@ -16,7 +16,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
-    "next": "12.2.2",
+    "next": "^12.2.2",
     "next-redux-wrapper": "^6.0.2",
     "react": "18.2.0",
     "react-bootstrap": "^2.4.0",
